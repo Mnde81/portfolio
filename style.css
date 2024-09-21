@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Nice Font';
+    src: url(./OldComputerSt-rGM7.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #05092E;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    flex-direction: column;
+}
+
+h4 {
+    margin-bottom: 15px;
+    font-family: 'Nice Font';
+}
+
+.recruitment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recruitment > p {
+    font-size: 20px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Nice Font';
+}
+
+.status > img {
+    width: 30px;
+}
+
+.box {
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px 150px 20px 30px;
+    background-color: #0A1705;
+    color: white;
+    font-size: 23px;
+    box-shadow: 0px 30px 30px 30px rgba(231, 189, 82, 0.2);  
+}
+
+.box-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;    
+}
+
+.box-checkbox > img {
+    width: 27px;
+}
+
+.box-footer {
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    background-color:aliceblue;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.front {
+    margin-top: 10px;
+    font-family: 'Nice Font';
+    font-size: 20px;
+}
+
+.contact {
+    margin-top: 10px;
+    font-family: 'Nice Font';
+}
+
+.fa-linkedin-square {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.fa-linkedin-square:hover {
+    color: green;
+}
+
+.fa-github {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.fa-github:hover {
+    color: green;
+}
+
+@media (max-width: 530px) {
+    .box {           
+        width: 400px;    
+    }       
+}
