@@ -43,11 +43,16 @@ h4 {
     font-size: 20px;
 }
 
+.green {
+    color: green;
+}
+
 .status {
     display: flex;
     align-items: center;
     gap: 10px;
     font-family: 'Nice Font';
+    color: green;
 }
 
 .status > img {
@@ -64,7 +69,7 @@ h4 {
     background-color: #0A1705;
     color: white;
     font-size: 23px;
-    box-shadow: 0px 30px 30px 30px rgba(231, 189, 82, 0.2);  
+    box-shadow: 0px 30px 30px 30px rgba(21, 196, 13, 0.2);  
 }
 
 .box-main {
@@ -81,6 +86,10 @@ h4 {
 
 .box-checkbox > img {
     width: 27px;
+}
+
+.box-checkbox > p {
+    color: green;
 }
 
 .box-footer {
